@@ -1,0 +1,20 @@
+{
+  "name": "BoilerplateParcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "LE JULE Frédéric",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.15.2"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "components": "^0.1.0",
+    "posthtml": "^0.11.3",
+    "posthtml-include": "^1.2.0"
+  }
+}
